@@ -24,7 +24,7 @@ app.run(host="0.0.0.0", port=8080, debug=True)
 
 ## jsonでcurl
 
-`Content-type`　が　　`application/json`の場合
+`Content-type`が　`application/json`の場合
 
 ```bash
 curl -X POST -H "Content-type: application/json"  -d '{"a":1}'  http://127.0.0.1:5000/
