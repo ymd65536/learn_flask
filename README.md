@@ -34,4 +34,8 @@ curl -X POST -H "Content-type: application/json"  -d '{"a":1}'  http://127.0.0.1
 
 ```bash
  curl -X POST -d '{"a":1}'  http://127.0.0.1:5000/
- ```
+```
+
+## あとで読みたい
+
+[とほほのFlask入門](https://www.tohoho-web.com/ex/flask.html)
